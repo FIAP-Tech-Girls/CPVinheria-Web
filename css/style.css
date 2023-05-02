@@ -2,28 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 
+/* Criando as variáveis para auxiliar no processo de cores */
+:root{
+    --cor-texto-padrao:#FFF;
+    --cor-texto-highlight:#FF2200;
+}
+
 body{
     background-image: linear-gradient(to right, #241c19, rgba(63, 28, 21, 0.97), rgba(137, 32, 16, 0.87));
     font-family: 'Lato', sans-serif;
-    color:#FFF;
+    color:var(--cor-texto-padrao);
 }
 
 header, footer{
     width: 100%;
+    padding:1px;
+    color:var(--cor-texto-padrao);
 }
 
-#tituloSite{
+header .container-header a #tituloSite{
     font-family: 'Bodoni Moda', serif;
-    color:#FFF;
+    color:var(--cor-texto-padrao);
 }
 header .container-header a{
     text-decoration: none;
-    color:#FFF;
+    color:var(--cor-texto-padrao);
 }
 
 header .container-header .nav-list .item a{
     text-decoration: none;
-    color:#FFF;
+}
+
+
+header .container-header .nav-list .item .active{
+    color:var(--cor-texto-highlight)
 }
 
 footer .container-footer .copyright{
