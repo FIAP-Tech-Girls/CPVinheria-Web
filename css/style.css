@@ -24,6 +24,14 @@ header .container-header a #tituloSite{
     font-family: 'Bodoni Moda', serif;
     color:var(--cor-texto-padrao);
 }
+
+header .container-header .nav-list{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+   /* margin: 0 !important; */
+}
+
 header .container-header a{
     text-decoration: none;
     color:var(--cor-texto-padrao);
