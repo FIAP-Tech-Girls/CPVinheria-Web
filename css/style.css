@@ -1,3 +1,4 @@
+/* Importando fontes */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 
@@ -23,4 +24,10 @@ header .container-header a{
 header .container-header .nav-list .item a{
     text-decoration: none;
     color:#FFF;
+}
+
+footer .container-footer .copyright{
+    font-family: 'Bodoni Moda', serif;
+    text-align:center;
+    font-size:20px;
 }
