@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #241c19, rgba(63, 28, 21, 0.97), rgba(137, 32, 16, 0.87));
+    font-family: 'Lato', sans-serif;
+    color:#FFF;
+}
+
+header .container-header a{
+    text-decoration: none;
+    color:#FFF;
+}
+
+header .container-header .nav-list .item a{
+    text-decoration: none;
+    color:#FFF;
+}
