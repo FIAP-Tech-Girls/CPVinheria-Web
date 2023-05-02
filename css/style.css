@@ -23,13 +23,19 @@ header, footer{
 header .container-header a #tituloSite{
     font-family: 'Bodoni Moda', serif;
     color:var(--cor-texto-padrao);
+    font-size:35px;
+    height:40px;
+    width:20px;
 }
 
 header .container-header .nav-list{
     list-style: none;
     display:flex;
+    float:right;
     justify-content: space-around;
-   /* margin: 0 !important; */
+    height:40px;
+    width:500px;
+    margin: 0 !important;
 }
 
 header .container-header a{
@@ -44,6 +50,12 @@ header .container-header .nav-list .item a{
 
 header .container-header .nav-list .item .active{
     color:var(--cor-texto-highlight)
+}
+
+footer .container-footer{
+    text-align:center;
+    justify-content: center;
+    margin-top: auto;
 }
 
 footer .container-footer .copyright{
