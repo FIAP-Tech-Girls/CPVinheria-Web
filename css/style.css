@@ -25,7 +25,7 @@ header .container-header a #tituloSite{
     color:var(--cor-texto-padrao);
     font-size:35px;
     height:40px;
-    width:20px;
+    /*width:20px;*/
 }
 
 header .container-header .nav-list{
@@ -63,3 +63,4 @@ footer .container-footer .copyright{
     text-align:center;
     font-size:20px;
 }
+
