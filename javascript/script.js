@@ -5,16 +5,12 @@ document.getElementById('scroll-icon').addEventListener('click',function(){
    scrollDown() 
   });
 });
-
-/*
 document.getElementById('scroll-botao').addEventListener('click',function(){
   window.requestAnimationFrame(function(){
-        scrollCount = window.onpageshow;
+        scrollCount = window.pageYOffset;
    scrollDown() 
   });
 });
-
-*/
 
 function scrollDown(){
   scrollCount += 25;
