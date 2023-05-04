@@ -99,7 +99,7 @@ p{
     line-height: 1em;
 }
 
-button {
+.botao-scroll button {
     border: none;
     font-size: 16px;
     font-size: 1rem;
@@ -141,6 +141,8 @@ button:hover {
 }
 
 .scroll{
+    background-image: 
+    url(../images/imagem-scrol.png);
     height: 100vh;
     position: relative;
     background-size: cover;
