@@ -8,10 +8,10 @@
     --cor-texto-highlight:#FF2200;
 }
 
-body, 
-html{
+*{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 body{
@@ -77,6 +77,16 @@ h1{
     font-weight: 900;
     margin: 0;
     line-height: 1em;
+}
+
+h2{
+    font-family: 'Bodoni Moda', serif;
+    color: #fff;
+    font-size:2vw;
+}
+
+p{
+    font-size: 1.5vw;
 }
 
 .highlight{
@@ -275,4 +285,31 @@ button:hover {
     .fa-angle-double-down {
         font-size: 2rem;
     }
+}
+
+.content{
+    margin:auto;
+    padding:20px;
+    padding-top:40px;
+    width: auto;
+    height: auto;
+}
+
+#titulo{
+    text-align: center;
+    justify-content: center;
+    width:auto;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+#mapa{
+    width:auto;
+    height: auto;
+    padding:10px;
+}
+
+#google-maps{
+    text-align: center;
+    padding:10px;
 }
