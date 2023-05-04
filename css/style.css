@@ -313,3 +313,15 @@ button:hover {
     text-align: center;
     padding:10px;
 }
+
+#endereco{
+    width:auto;
+    height: auto;
+    padding:2px;
+}
+
+.endereco-texto{
+    font-size: 1.4vw;
+    text-align: center;
+    line-height: 1.3;
+}
