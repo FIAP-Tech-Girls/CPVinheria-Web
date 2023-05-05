@@ -240,6 +240,7 @@ button:hover {
 #realizar-cadastro{
     float:right;
     padding: 10px;
+    padding-bottom:6px;
 }
 
 #realizar-cadastro a{
@@ -250,3 +251,7 @@ button:hover {
     color:var(--cor-texto-highlight);
 }
 
+#formulario-login{
+    padding:30px;
+
+}
