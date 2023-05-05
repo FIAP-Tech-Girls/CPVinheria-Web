@@ -253,6 +253,39 @@ button:hover {
 }
 
 #formulario-login{
-    padding:30px;
+    padding:50px;
+    height: auto;
+    
+}
 
+form{
+    width:1000px;
+	height:350px;
+    padding:50px;
+}
+
+label{
+    font-size: 1.6vw;
+    padding:5px;
+}
+
+input{
+    font-family: 'Lato', sans-serif;
+    padding:5px;
+    width:500px;
+    height:50px;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom:4px;
+}
+
+#formulario-login button{
+    border: none;
+    font-size: 1.5vw;
+    font-family: 'Lato', sans-serif;
+    color:var(--cor-texto-padrao);
+    background-color: #000000;
+    width: 170px;
+    height: 60px;
+    cursor: pointer;
 }
