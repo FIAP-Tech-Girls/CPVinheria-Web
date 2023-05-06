@@ -5,6 +5,10 @@ btnScroll.addEventListener('click', function() {
   secaoAlvo.scrollIntoView({ behavior: 'smooth' });
 });
 
+function duvidasFrequentes(){
+  window.open("#")
+}
+
 
 //Função sujeitas a mudanças futuras
 function alertaBotaoAmelie(){
