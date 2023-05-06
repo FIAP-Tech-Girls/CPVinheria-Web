@@ -289,3 +289,7 @@ input{
     height: 60px;
     cursor: pointer;
 }
+
+#formulario-login a{
+    text-decoration: none;
+}
