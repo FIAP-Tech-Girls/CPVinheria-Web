@@ -254,14 +254,13 @@ button:hover {
 
 #formulario-login{
     padding:50px;
-    height: auto;
-    
+    height: auto; 
 }
 
 form{
     width:1000px;
-	height:350px;
-    padding:50px;
+	height:auto;
+    padding:30px;
 }
 
 label{
@@ -279,7 +278,7 @@ input{
     margin-bottom:4px;
 }
 
-#formulario-login button{
+#formulario-login #fazerLogin{
     border: none;
     font-size: 1.5vw;
     font-family: 'Lato', sans-serif;
@@ -292,4 +291,20 @@ input{
 
 #formulario-login a{
     text-decoration: none;
+}
+
+#formulario-cadastro{
+    padding:35px;
+    height: auto; 
+}
+
+#formulario-cadastro #fazerCadastro{
+    border: none;
+    font-size: 1.5vw;
+    font-family: 'Lato', sans-serif;
+    color:var(--cor-texto-padrao);
+    background-color: #000000;
+    width: 170px;
+    height: 60px;
+    cursor: pointer;
 }

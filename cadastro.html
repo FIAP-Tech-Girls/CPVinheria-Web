@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Carrinho</title>
+    <title>Cadastro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -25,7 +25,16 @@
     </header>
 
     <section class="content">
-        TESTE
+        <div id="formulario-cadastro">
+            <center><form name="formulario-cadastro">
+                <label>Email:</label> <input type="email" placeholder="Insira seu email de cadastro" id="emailUsuario" required/><br><br>
+                <label>Nome:</label> <input type="text" placeholder="Insira seu nome completo" id="nomeUsuario" required/><br><br>
+                <label>Apelido:</label> <input type="email" placeholder="Insira seu apelido" id="apelidoUsuario" required/><br><br>
+                <label>Nascimento:</label> <input type="text" placeholder="Insira sua data de nascimento" id="dataNascUsuario" required/><br><br>
+                <label>Senha:</label> <input type="password" placeholder="Insira sua senha" id="senhaUsuario" required/> <br> <br>
+                <input type="submit" value="Entrar" id="fazerCadastro" onclick="alertaBotaoCadastro()"/>
+            </form></center>
+        </div>
     </section>
 
     <footer>
