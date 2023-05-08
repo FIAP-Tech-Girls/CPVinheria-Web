@@ -308,3 +308,36 @@ input{
     height: 60px;
     cursor: pointer;
 }
+
+#historia{
+    font-size: 1.4vw;
+    line-height: 1.2;
+    padding:6px;
+
+}
+
+#historia1{
+    display: flex;
+    text-align: justify;
+}
+
+#historia2{
+    display: flex;
+    text-align: justify;
+    padding:5px;
+}
+
+#historia2 a{
+    text-decoration: none;
+    color:white;
+}
+
+#historia2 a:hover{
+    background-color:var(--cor-texto-highlight);
+}
+
+.highlight2{
+    color:var(--cor-texto-highlight);
+    font-size: 1.4vw;
+    line-height: 1.2;
+}
