@@ -311,7 +311,7 @@ input{
 
 #historia{
     font-size: 1.3vw;
-    line-height: 1.2;
+    line-height: 1.3;
     padding:6px;
 }
 
@@ -335,6 +335,10 @@ input{
     background-color:var(--cor-texto-highlight);
 }
 
+#imagemVisiteHome:hover{
+    transform: scale(1.1);
+}
+
 .highlight2{
     color:var(--cor-texto-highlight);
     font-size: 1.3vw;
@@ -346,6 +350,11 @@ input{
     justify-content: space-between;
     padding: 10px;
     padding-bottom:20px;
+}
+
+.carrinho-box img:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
 }
 
 .carrinho-box a{
@@ -380,6 +389,11 @@ input{
     margin-right: 10px;
 }
 
+.tiposVinho img:hover{
+    opacity: 0.8;
+    transform: scale(1.1); /* Quando o usuário passar o mouse em cima da imagem, ela escala para frente, fazendo uma animaçãozinha */
+}
+
 .tiposVinho::-webkit-scrollbar{
     height: 5px;
 }
@@ -388,3 +402,4 @@ input{
     background-color: black;
     border-radius: 20px;
 }
+
