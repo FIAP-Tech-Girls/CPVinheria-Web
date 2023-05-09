@@ -417,3 +417,83 @@ input{
     border-radius: 20px;
 }
 
+.vinhosQueridinhos{
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom:20px;
+}
+
+.vinhosQueridinhos img{
+    align-self: flex-start;
+    margin-right: 10px;
+    transition: 500ms linear;
+}
+
+.vinhosQueridinhos img:hover{
+    opacity: 0.8;
+    transform: scale(1.1); /* Quando o usuário passar o mouse em cima da imagem, ela escala para frente, fazendo uma animaçãozinha */
+}
+
+.vinhosQueridinhos::-webkit-scrollbar{
+    height: 5px;
+}
+
+.vinhosQueridinhos::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.vinhosQueridinhos a{
+    text-decoration: none;
+    color:var(--cor-texto-padrao)
+}
+
+.maisVinhos{
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom:20px;
+}
+
+.maisVinhos img{
+    align-self: flex-start;
+    margin-right: 10px;
+    transition: 500ms linear;
+}
+
+.maisVinhos img:hover{
+    opacity: 0.8;
+    transform: scale(1.1); /* Quando o usuário passar o mouse em cima da imagem, ela escala para frente, fazendo uma animaçãozinha */
+}
+
+.maisVinhos::-webkit-scrollbar{
+    height: 5px;
+}
+
+.maisVinhos::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.maisVinhos a{
+    text-decoration: none;
+    color:var(--cor-texto-padrao)
+}
+
+#faleComAmelie{
+    text-align: center;
+    padding:10px;
+}
+
+#faleComAmelie img{
+    transition: 500ms linear;
+}
+
+#faleComAmelie img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
