@@ -368,3 +368,23 @@ input{
     height: 60px;
     cursor: pointer;
 }
+
+.tiposVinho{
+    padding: 15px;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin;
+}
+
+.tiposVinho img{
+    margin-right: 10px;
+}
+
+.tiposVinho::-webkit-scrollbar{
+    height: 5px;
+}
+
+.tiposVinho::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 20px;
+}
