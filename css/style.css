@@ -310,7 +310,7 @@ input{
 }
 
 #historia{
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     line-height: 1.2;
     padding:6px;
 
@@ -338,6 +338,6 @@ input{
 
 .highlight2{
     color:var(--cor-texto-highlight);
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     line-height: 1.2;
 }
