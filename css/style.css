@@ -340,6 +340,10 @@ input{
     background-color:var(--cor-texto-highlight);
 }
 
+#imagemVisiteHome{
+    transition: 500ms linear;
+}
+
 #imagemVisiteHome:hover{
     transform: scale(1.1);
 }
