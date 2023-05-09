@@ -221,6 +221,10 @@ button:hover {
     text-align: center;
 }
 
+#redes-sociais img:hover{
+    transform: scale(1.1);
+}
+
 .botoes-amelie{
     display: flex;
     flex-direction: column;
